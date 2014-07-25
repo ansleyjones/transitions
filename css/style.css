@@ -1,0 +1,325 @@
+body{
+  margin:0;
+  font-family: 'Montserrat', helvetica;
+}
+
+header{
+  display:block;
+  width:100%;
+  font-family:'Rajdhani', helvetica;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header img{
+  height: 400px;
+}
+.parentHead {
+  width:100%;
+  position:relative;
+  text-align:center;
+}
+
+.headH {
+  position:absolute;
+  width: 100%;
+  top:80px;
+  color:white;
+}
+ h1{
+  color:white;
+  font-size: 70px;
+  margin: 0 auto;
+  padding: 0;
+ }
+
+ .headH p{
+   margin: -20px;
+ }
+
+
+.navLinx {
+  width:100%;
+  position:absolute;
+  top:20px;
+  text-align: center;
+}
+
+.navLinx ul{
+  list-style-type: none;
+
+}
+
+.navLinx li {
+  display: inline-block;
+  color:black;
+  padding-left:40px;
+  padding-right: 40px;
+}
+
+.navLinx a{
+  font-size: 20px;
+  text-decoration:none;
+  color:black;
+}
+
+.navLinx a:hover{
+  color:white;
+  font-size: 25px;
+  transition:all .3s ease;
+}
+
+
+.backImg{
+  width:100%;
+  height: 400px;
+  background: rgba(58,58,58,1);
+}
+
+.imgHover{
+  opacity: .3;
+}
+
+.imgHover:hover{
+  opacity: 1.0;
+  transition: all 500ms ease;
+}
+
+.wrapper{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.block1{
+  display: block;
+  position: relative;
+  margin-top: 20px;
+}
+
+.rightSide{
+  display: inline-block;
+  width: 55%;
+  margin-left: 15px;
+}
+
+.rightSide h2{
+  font-size: 40px;
+  text-align: left;
+  margin-right:90px;
+  margin-top: 5px;
+}
+.rightSide h3{
+  font-size: 25px;
+  color: grey;
+}
+
+.rightSide p{
+  text-indent: 1.5em;
+  line-height: 22px;
+}
+
+.leftSide{
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-right: 15px;
+  text-align: center;
+  border-right: 1px solid lightgrey;
+}
+
+.leftSide p{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.leftSide img{
+  width: 350px;
+  margin-top: 10px;
+  border: 5px solid lightgrey;
+}
+
+.leftSide img:hover{
+  width: 390px;
+  border: 5px solid rgba(58,58,58,1);
+  transition: .4s;
+}
+
+.backImg2{
+  margin-left: 60px;
+  width:350px;
+  background-color: rgba(58,58,58,1);
+}
+
+
+/* BLOCK 2 */
+
+.block2{
+  margin-top:60px;
+  position: relative;
+  clear: both;
+  width: 100%;
+}
+.block2 h2{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.block2 h3{
+  font-size: 25px;
+  color: grey;
+  text-align: center;
+}
+
+.block2 p{
+  margin-left: 120px;
+  margin-right: 120px;
+  text-indent: 1.5em;
+  line-height: 22px;
+}
+
+
+.moviePic{
+  display:block;
+  width: 100%;
+  position:relative;
+  clear: both;
+}
+
+#drive{
+  display:block;
+  position: absolute;
+  margin-left: 41%;
+  top: 5px;
+  transition: all .5s ease-in-out;
+
+}
+#never{
+  display:block;
+  position: absolute;
+  margin-left: 41%;
+  top: 5px;
+  transition: all .5s ease-in-out;
+}
+#her{
+  display:block;
+  position: absolute;
+  margin-left: 41%;
+  top: 5px;
+  transition: all .5s ease-in-out;
+}
+#ben{
+  display:block;
+  position: absolute;
+  margin-left: 41%;
+  top: 5px;
+  transition: all .5s ease-in-out;
+}
+#wrest{
+  display:block;
+  position: absolute;
+  margin-left: 41%;
+  top:5px;
+  transition: all .5s ease-in-out;
+}
+
+.moviePic:hover #wrest{
+  transform: translate(410px,0);
+}
+
+.moviePic:hover #ben{
+  transform: translate(205px,0);
+}
+
+.moviePic:hover #her{
+  transform: translate(0px,0);
+}
+
+.moviePic:hover #never{
+  transform: translate(-205px,0);
+}
+
+.moviePic:hover #drive{
+  transform: translate(-410px,0);
+}
+
+.block3{
+  margin-top: 340px;
+  display:block;
+  position: relative;
+  width:100%;
+
+}
+
+.lfSide{
+  display: inline-block;
+  width: 30%;
+  padding-left: 20px;
+}
+
+.lfSide h2{
+  font-size: 60px;
+  text-align:center;
+  margin-top: 100px;
+  padding-right: 20px;
+  border-right: 1px solid lightgrey;
+}
+
+.lfSide p{
+  margin:0;
+}
+
+
+.rtSide{
+  display:inline-block;
+  width:65%;
+  vertical-align: top;
+}
+
+.rtSide p{
+  padding-left: 40px;
+  padding-right: 60px;
+}
+
+#fade {
+    position:relative;
+}
+
+#fade img {
+    position:absolute;
+    width: 310px;
+    top: 90px;
+    left: 7%;
+    opacity: 1;
+    transition: opacity .7s ease-in-out;
+}
+
+#fade img.two:hover {
+    opacity:0;
+}
+
+#bottomInfo{
+  position:absolute;
+  line-height: 22px;
+  left: 65%;
+  top: 90px;
+}
+
+.block4 {
+  display:block;
+  margin-top: 60px;
+}
+
+.block4 h2{
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.block4 h3{
+  text-align: center;
+  font-size: 25px;
+  color: grey;
+}
