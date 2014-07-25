@@ -126,6 +126,7 @@ header img{
   margin-right: 15px;
   text-align: center;
   border-right: 1px solid lightgrey;
+
 }
 
 .leftSide p{
@@ -136,13 +137,12 @@ header img{
 .leftSide img{
   width: 350px;
   margin-top: 10px;
-  border: 5px solid lightgrey;
 }
 
 .leftSide img:hover{
-  width: 390px;
-  border: 5px solid rgba(58,58,58,1);
-  transition: .4s;
+  width: 400px;
+  box-shadow: -11px 11px 2px 1px rgba(0,0,0,.7);
+  transition: all .4s ease;
 }
 
 .backImg2{
@@ -151,8 +151,8 @@ header img{
   background-color: rgba(58,58,58,1);
 }
 
-
-/* BLOCK 2 */
+/*
+BLOCK 2 */
 
 .block2{
   margin-top:60px;
@@ -246,7 +246,7 @@ header img{
 }
 
 .block3{
-  margin-top: 340px;
+  margin-top: 320px;
   display:block;
   position: relative;
   width:100%;
@@ -293,7 +293,7 @@ header img{
     top: 90px;
     left: 7%;
     opacity: 1;
-    transition: opacity .7s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
 #fade img.two:hover {
@@ -306,6 +306,7 @@ header img{
   left: 65%;
   top: 90px;
 }
+
 
 .block4 {
   display:block;
@@ -322,4 +323,137 @@ header img{
   text-align: center;
   font-size: 25px;
   color: grey;
+}
+
+.mura{
+  overflow: hidden;
+  text-align:center;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 60px;
+  transition: height 1s ease;
+}
+
+#hoverHere{
+  color: black;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.mura:hover{
+  height: 450px;
+}
+.message{
+  display: block;
+  width:100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.message img{
+  margin-top: 30px;
+  width: 220px;
+}
+
+.block5 {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-top: 95px;
+}
+
+.ls {
+  display: inline-block;
+  width: 76%;
+}
+
+
+#closed{
+  display:block;
+  position: absolute;
+  width:200px;
+  margin-left: 5px;
+  left: 5px;
+  bottom: 20%;
+  transition: all .5s ease-in-out;
+
+}
+#bier{
+  display:block;
+  position: absolute;
+  width:200px;
+  margin-left: 5px;
+  left: 5px;
+  bottom: 20%;
+  transition: all .5s ease-in-out;
+}
+#co{
+  display:block;
+  position: absolute;
+  width:200px;
+  margin-left: 5px;
+  left: 5px;
+  bottom: 20%;
+  transition: all .5s ease-in-out;
+}
+#moose{
+  display:block;
+  position: absolute;
+  width:290px;
+  margin-left: 10px;
+  left: 5px;
+  bottom: 20%;
+  transition: all .5s ease-in-out;
+}
+
+
+.ls:hover #moose{
+  transform: translate(0px,0);
+  width: 200px;
+}
+
+.ls:hover #co{
+  transform: translate(205px,0);
+}
+
+.ls:hover #bier{
+  transform: translate(410px,0);
+}
+
+.ls:hover #closed{
+  transform: translate(615px,0);
+}
+
+
+
+
+
+.rs {
+  display: inline-block;
+  width: 20%;
+}
+
+.rs h2{
+  font-size: 50px;
+  padding-left:20px;
+  border-left: 1px solid grey;
+  letter-spacing: 7px;
+}
+.rs span{
+  display: inline-block;
+}
+
+.rs span:hover{
+  transform: rotate(90deg);
+  transition: all .3s ease;
+}
+
+
+
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: block;
 }
